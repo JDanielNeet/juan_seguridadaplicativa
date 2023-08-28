@@ -1,0 +1,54 @@
+//ACTIVIDAD 4: Programas que muestra un conteo del 1 al 100 sustituyendo múltiplos de 3 por "fizz", de 5 por "buzz" y de ambos por "fizzbuzz"
+//y que muestra las tabla del 1 al 10.
+//Juan Daniel Chávez Sánchez.
+//28 de agosto del 2023.
+
+//PROGRAMA 1: Escribir un programa que muestre en pantalla los números del 1 al 10, susutituyendo los multiplos de 3 por la palabra "fizz", 
+los múltiplos de 5 por "buzz" y los multiplos de ambos, es decir, los multiplos de 3 y 5, por la palabra "fizzbuzz";
+
+
+Inicio del programa
+
+    Inicializacion de la variable X que comience en 1;
+
+    Inicialización de bucle con X como parámetro de finalización, mientas X no sea menor o igual que 100:
+        
+        Realización del módulo de X con 3;
+        Si el resultado es igual a cero:
+            Se muestra en pantalla la palabra "fizz";
+
+        Realización del módulo de X con 5;
+        Si el resultado es igual a cero:
+            Se muestra en pantalla la palabra "buzz";
+
+        Realización del módulo de X con 15;
+        Si el resultado es igual a cero:
+            Se muestra en pantalla la palabra "fizzbuzz";
+
+        Si no aplica ninguno de los casos:
+            Se muestra en pantalla el valor de X;
+        
+        Suma de un uno a X;
+
+Fin del programa
+
+
+//PROGRAMA 2: Escribir un programa que muestre en pantalla una tabla de multiplicación del 1 al 10;
+
+Inicio del programa
+
+    Inicialización de la variable X con valor igual a 1;
+
+    Inicialización de bucle con X como parámetro de finalización e inicializado como 1, mientas X sea menor o igual que 10:
+        
+        Se muestra en pantalla la frase "Esta es la tabla del " seguido del valor de X y un salto de renglón;
+
+        Inicialización de bucle con Y como parámetro de finalización, mientas Y sea menor o igual que 10:
+            Se imprime en pantalla el valor de X seguido de la frase " x " seguido del valor de Y seguido de la frase " = " seguido del 
+            resultado de hacer el producto de X con Y y un salto de renglón;
+
+            Se suma un uno a la variable Y;
+
+    Se suma un uno a la variable X;
+
+Fin del programa
