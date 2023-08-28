@@ -1,0 +1,77 @@
+Chávez Sánchez Juan Daniel
+
+Actividad 5
+
+1. ¿Qué es una red?
+
+    R/. Conjuntos de dispositivos también llamados nodos, endpoints, usuarios finales, interconectados con el fin de compartir información.
+
+2. ¿Qué es el modelo TCP/IP?
+
+    R/. Modelo que consta de 4 capas (Physical, Data Link, Network, Transport & Application) con el cual se puede explicar el funcionamiento de una red.
+
+3. ¿Qué es una ip?
+
+    R/. Conjunto de 4 octetos de información que identifican de forma única a un dispositivo dentro de una red.
+
+4. ¿Qué es el protocolo TCP?
+
+    R/. Siglas para Transport Control Protocol el cual es un protocolo de intercambio de información que consta de una metodología
+    llamada 3-way handshake que, a grandes rasgos, el cliente 1 saluda, posteriormente envia información y al último se despide.
+    En este tipo de protocolo, se asegura la intergridad de la información, ya que la comunicación únicamente puede ser lograda cuando
+    los dos clientes están seguros que la misma se compartió correctamente y sin interrupciones.
+
+5. Dentro del protocolo TCP, ¿qué es el protocolo HTTP? 
+
+    R/. Siglas para Hyper Text Transport Protocol y es protocolo con el cual un cliente puede realizar peticiones a un servidor web.
+
+6. Puerto del protocolo HTTP.
+
+    R/. 80
+
+6. Puerto del protocolo HTTPS.
+
+    R/. 443
+
+8. Diferencia entre HTTP y HTTPS.
+
+    R/. La principal difencia es que el segundo tiene un comunicación crifrada, el primero hace el intercambio de datos en texto claro.
+
+9. ¿Qué significa el modelo cliente-servidor?
+
+    R/. Modelo en el cual hay dos usuarios representando los roles de cliente y servidor, el cliente realiza las peticiones al servidor
+    de un servicio mientras que el servidor es el encargado de responder todas las peticiones que el cliente haga en un tiempo determinado.
+
+10. ¿Qué es una petición (request)?
+
+    R/. Solicitud de un servicio, hecha por un cliente, a un servidor deseado en ella se indica quién la está haciendo y qué servicio
+    se está solicitando.
+
+11. ¿Qué es una respuesta (response)?
+
+    R/. La información y/o servicio solicitado al servidor, en el se indica a qué cliente va digirido.
+
+12. Secciones de una petición.
+
+    R/. Método, cabecera, token, 
+
+13. Secciones de una respuesta.
+
+    Método, Identificador de respuesta
+
+14. ¿El código de respuesa 404 y 500 a qué se refiere?
+
+    R/. El código 404 indica que se está haciendo la petición a un servicio que no existe dentro del servidor mientras que el código 500 indica
+    que el servicio al que se hizo la petición existe pero que por un error interno, no se logró responder adecuadamente.
+    
+15. Lenguajes de programación del lado de servidor (Back End).
+
+    R/. PHP, Python, Ruby, Javascript
+
+16. Lenguajes de programación del lado de cliente (Front End).
+
+    R/. CSS, ReactJS, JQUERY.
+
+17. ¿Qué es Burp Suite?
+
+    R/. No sé :(
