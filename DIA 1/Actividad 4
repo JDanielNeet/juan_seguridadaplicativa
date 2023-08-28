@@ -11,7 +11,7 @@ Inicio del programa
 
     Inicializacion de la variable X que comience en 1;
 
-    Inicialización de bucle con X como parámetro de finalización, mientas X no sea menor o igual que 100:
+    Inicialización de bucle con X como parámetro de finalización, mientas X sea menor o igual que 100:
         
         Realización del módulo de X con 3;
         Si el resultado es igual a cero:
