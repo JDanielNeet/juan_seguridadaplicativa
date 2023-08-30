@@ -1,3 +1,0 @@
-cadena="PolloConMole"
-
-print(cadena[::-1])
