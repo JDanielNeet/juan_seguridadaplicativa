@@ -1,0 +1,14 @@
+print("Put your text here: ")
+word = input()
+print("Your word is: " + word)
+
+word = word.lower()
+
+revWord = word[::-1]
+
+print(revWord)
+
+if((word == revWord)):
+    print("ES palindromo")
+else:
+    print("NO es palindromo")
