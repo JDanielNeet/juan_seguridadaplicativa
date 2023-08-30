@@ -1,0 +1,45 @@
+def funcSuma(num1, num2): return num1 + num2
+def funcResta(num1, num2): return num1 - num2
+def funcMultiplicacion(num1, num2): return num1 * num2
+def funcDivision(num1, num2): return num1 / num2
+
+print("CALCULADORA PERRONA >:)")
+
+print("Que paso papi? En que te ayudo?")
+
+print("SUMA (1) \nRESTA (2) \nMULTIPLICACION (3) \nDIVISION (4) \nEscoge tu opcion mi amor: ")
+
+op = input()
+
+op = int(op)
+
+if(op == 1):
+    print("Dale papi, pasa tu 1er numero: ")
+    num1 = int(input())
+    print("Pasa el segundo: ")
+    num2 = int(input())
+    print("Aqui esta tu resultado: ")
+    print(funcSuma(num1, num2))
+elif(op == 2):
+    print("Dale papi, pasa tu 1er numero: ")
+    num1 = int(input())
+    print("Pasa el segundo: ")
+    num2 = int(input())
+    print("Aqui esta tu resultado: ")
+    print(funcResta(num1, num2))
+elif(op == 3):
+    print("Dale papi, pasa tu 1er numero: ")
+    num1 = int(input())
+    print("Pasa el segundo: ")
+    num2 = int(input())
+    print("Aqui esta tu resultado: ")
+    print(funcMultiplicacion(num1, num2))
+elif(op == 4):
+    print("Dale papi, pasa tu 1er numero: ")
+    num1 = int(input())
+    print("Pasa el segundo: ")
+    num2 = int(input())
+    print("Aqui esta tu resultado: ")
+    print(funcDivision(num1, num2))
+else:
+    print("Uy! De esos no hay")
